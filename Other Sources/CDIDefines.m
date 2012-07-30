@@ -19,10 +19,10 @@
 //
 // You must set the redirect URI to `cheddar://oauth`
 //
-#error You need to fill in CDIDefines.m with your API credentials
+//#error You need to fill in CDIDefines.m with your API credentials
 
-NSString *const kCDIAPIClientID = @"YOUR_API_KEY";
-NSString *const kCDIAPIClientSecret = @"YOUR_API_SECRET";
+NSString *const kCDIAPIClientID = @"05a5d5b8e35f042dee9926a775cfd61d";
+NSString *const kCDIAPIClientSecret = @"a818f37e2f282946208f94293bda3f45";
 
 
 #pragma mark - Fonts

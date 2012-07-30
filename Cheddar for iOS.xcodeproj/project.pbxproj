@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D70647315C7256600D9F6E4 /* CDIDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70647215C7256600D9F6E4 /* CDIDefines.m */; };
 		B208BC2915BF63A80080705D /* CDIAddListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */; };
 		B208BC2A15BF63A80080705D /* CDIAddTaskAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9515BF63A80080705D /* CDIAddTaskAnimationView.m */; };
 		B208BC2B15BF63A80080705D /* CDIAddTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9715BF63A80080705D /* CDIAddTaskView.m */; };
@@ -147,12 +148,7 @@
 		B28FD2C815BF732F00365CD6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B28FD2C715BF732F00365CD6 /* libsqlite3.dylib */; };
 		B28FD2D115BF739300365CD6 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B28FD2D015BF739300365CD6 /* libicucore.dylib */; };
 		B28FD2D915BF742D00365CD6 /* Cheddar.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D215BF742D00365CD6 /* Cheddar.entitlements */; };
-		B28FD2DB15BF742D00365CD6 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D515BF742D00365CD6 /* Gotham-Bold.otf */; };
-		B28FD2DC15BF742D00365CD6 /* Gotham-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D615BF742D00365CD6 /* Gotham-BoldItalic.otf */; };
-		B28FD2DD15BF742D00365CD6 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D715BF742D00365CD6 /* Gotham-Book.otf */; };
-		B28FD2DE15BF742D00365CD6 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D815BF742D00365CD6 /* Gotham-BookItalic.otf */; };
 		B28FD2E215BF755600365CD6 /* Cheddar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2E015BF755600365CD6 /* Cheddar.xcdatamodeld */; };
-		B28FD2E815BF774D00365CD6 /* CDIDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2E715BF774D00365CD6 /* CDIDefines.m */; };
 		B290118A15C49B07008FC626 /* toolbar-background-mini.png in Resources */ = {isa = PBXBuildFile; fileRef = B290118615C49B07008FC626 /* toolbar-background-mini.png */; };
 		B290118B15C49B07008FC626 /* toolbar-background-mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B290118715C49B07008FC626 /* toolbar-background-mini@2x.png */; };
 		B290118C15C49B07008FC626 /* toolbar-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B290118815C49B07008FC626 /* toolbar-background.png */; };
@@ -258,6 +254,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D70647115C7256600D9F6E4 /* CDIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIDefines.h; sourceTree = "<group>"; };
+		1D70647215C7256600D9F6E4 /* CDIDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIDefines.m; sourceTree = "<group>"; };
 		B208BB9215BF63A80080705D /* CDIAddListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddListTableViewCell.h; sourceTree = "<group>"; };
 		B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIAddListTableViewCell.m; sourceTree = "<group>"; };
 		B208BB9415BF63A80080705D /* CDIAddTaskAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddTaskAnimationView.h; sourceTree = "<group>"; };
@@ -447,14 +445,8 @@
 		B28FD2C715BF732F00365CD6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		B28FD2D015BF739300365CD6 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		B28FD2D215BF742D00365CD6 /* Cheddar.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Cheddar.entitlements; sourceTree = "<group>"; };
-		B28FD2D515BF742D00365CD6 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
-		B28FD2D615BF742D00365CD6 /* Gotham-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-BoldItalic.otf"; sourceTree = "<group>"; };
-		B28FD2D715BF742D00365CD6 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
-		B28FD2D815BF742D00365CD6 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
 		B28FD2E115BF755600365CD6 /* Cheddar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cheddar.xcdatamodel; sourceTree = "<group>"; };
 		B28FD2E315BF756800365CD6 /* Cheddar 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Cheddar 2.xcdatamodel"; sourceTree = "<group>"; };
-		B28FD2E415BF761C00365CD6 /* CDIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIDefines.h; sourceTree = "<group>"; };
-		B28FD2E715BF774D00365CD6 /* CDIDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIDefines.m; sourceTree = "<group>"; };
 		B290118615C49B07008FC626 /* toolbar-background-mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-background-mini.png"; sourceTree = "<group>"; };
 		B290118715C49B07008FC626 /* toolbar-background-mini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-background-mini@2x.png"; sourceTree = "<group>"; };
 		B290118815C49B07008FC626 /* toolbar-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-background.png"; sourceTree = "<group>"; };
@@ -549,10 +541,10 @@
 		B208BBD015BF63A80080705D /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1D70647115C7256600D9F6E4 /* CDIDefines.h */,
+				1D70647215C7256600D9F6E4 /* CDIDefines.m */,
 				B208BBD115BF63A80080705D /* Cheddar-Prefix.pch */,
 				B208BBD215BF63A80080705D /* main.m */,
-				B28FD2E415BF761C00365CD6 /* CDIDefines.h */,
-				B28FD2E715BF774D00365CD6 /* CDIDefines.m */,
 			);
 			path = "Other Sources";
 			sourceTree = "<group>";
@@ -935,10 +927,6 @@
 		B28FD2D315BF742D00365CD6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				B28FD2D515BF742D00365CD6 /* Gotham-Bold.otf */,
-				B28FD2D615BF742D00365CD6 /* Gotham-BoldItalic.otf */,
-				B28FD2D715BF742D00365CD6 /* Gotham-Book.otf */,
-				B28FD2D815BF742D00365CD6 /* Gotham-BookItalic.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -1211,10 +1199,6 @@
 				B208BC9B15BF63A80080705D /* x.png in Resources */,
 				B208BC9C15BF63A80080705D /* x@2x.png in Resources */,
 				B28FD2D915BF742D00365CD6 /* Cheddar.entitlements in Resources */,
-				B28FD2DB15BF742D00365CD6 /* Gotham-Bold.otf in Resources */,
-				B28FD2DC15BF742D00365CD6 /* Gotham-BoldItalic.otf in Resources */,
-				B28FD2DD15BF742D00365CD6 /* Gotham-Book.otf in Resources */,
-				B28FD2DE15BF742D00365CD6 /* Gotham-BookItalic.otf in Resources */,
 				B28F84DB15C37E1D003E4595 /* SSToolkitResources.bundle in Resources */,
 				B2AD02E315C46F7300D9B909 /* nav-back-mini-highlighted.png in Resources */,
 				B2AD02E415C46F7300D9B909 /* nav-back-mini.png in Resources */,
@@ -1321,7 +1305,6 @@
 				B208C14215BF63E20080705D /* SSPullToRefreshView.m in Sources */,
 				B208C1A515BF63E20080705D /* TTTAttributedLabel.m in Sources */,
 				B28FD2E215BF755600365CD6 /* Cheddar.xcdatamodeld in Sources */,
-				B28FD2E815BF774D00365CD6 /* CDIDefines.m in Sources */,
 				B2A2B07B15C0BE7300772CF6 /* CDKTask+CheddariOSAdditions.m in Sources */,
 				B23261AA15C207FF00D455EF /* CDIWebSignInViewController.m in Sources */,
 				B2AD032115C493C200D9B909 /* CDIWebViewController.m in Sources */,
@@ -1331,6 +1314,7 @@
 				B26AE9BA15C5D0100008AB1F /* CDISettingsFontPickerViewController.m in Sources */,
 				B26AE9BD15C5D25E0008AB1F /* CDIGroupedTableViewController.m in Sources */,
 				B26AE9C015C5D52D0008AB1F /* CDIPickerViewController.m in Sources */,
+				1D70647315C7256600D9F6E4 /* CDIDefines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1416,10 +1400,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/Cheddar-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Vendor/SSToolkit\"",
-					"\"$(SRCROOT)/Vendor/Bully\"",
+					"\"$(SRCROOT)/Vendor/SSToolkit\"/**",
+					"\"$(SRCROOT)/Vendor/Bully\"/**",
 					"\"$(SRCROOT)/Vendor/CheddarKit\"/**",
-					"\"$(SRCROOT)/Vendor/TextExpander.framework/Versions/A/Headers\"",
+					"\"$(SRCROOT)/Vendor/TextExpander.framework/Versions/A/Headers\"/**",
+					"\"$(SRCROOT)/Other Sources\"/**",
 				);
 				INFOPLIST_FILE = "Resources/Cheddar-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -1450,10 +1435,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/Cheddar-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Vendor/SSToolkit\"",
-					"\"$(SRCROOT)/Vendor/Bully\"",
+					"\"$(SRCROOT)/Vendor/SSToolkit\"/**",
+					"\"$(SRCROOT)/Vendor/Bully\"/**",
 					"\"$(SRCROOT)/Vendor/CheddarKit\"/**",
-					"\"$(SRCROOT)/Vendor/TextExpander.framework/Versions/A/Headers\"",
+					"\"$(SRCROOT)/Vendor/TextExpander.framework/Versions/A/Headers\"/**",
+					"\"$(SRCROOT)/Other Sources\"/**",
 				);
 				INFOPLIST_FILE = "Resources/Cheddar-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
